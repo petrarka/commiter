@@ -17,5 +17,4 @@ while True:
     curr = now.strftime("%d/%m/%Y %H:%M:%S")
     os.system(f"git commit -m '{curr}'")
     os.system("git push")
-    time.sleep(30)
-    #time.sleep(60*60 + random.randint(-600, 600))
+    time.sleep(60*60 + random.randint(-600, 600))
